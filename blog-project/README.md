@@ -1,1 +1,0 @@
-** BLOG DA CIDADE **

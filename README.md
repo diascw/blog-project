@@ -1,2 +1,0 @@
-# CAMINHOS DO SABOR #
-

@@ -26,10 +26,6 @@ Neste blog, eu compartilho minhas impressões sobre diversos pratos, explorando 
 - **Sobre:** Conheça o autor e a filosofia por trás do blog. (Versão 02)
 - **Contato:** Entre em contato para compartilhar suas próprias experiências culinárias ou para discutir colaborações. (Versão 02) 
 
-### Contribuições e Feedback
-
-Adoraria ouvir suas opiniões e experiências também! Se você tiver comentários ou quiser compartilhar suas próprias observações sobre pratos e culinária, entre em contato através da nossa página de contato.
-
 ### Agradecimentos
 
 **Bom apetite e boas descobertas!**

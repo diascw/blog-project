@@ -4,8 +4,8 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                hostname: 'receitason.com',
                 hostname: 'i.postimg.cc',
+                hostname: 'receitason.com',
                 protocol: 'https'
             }
         ]

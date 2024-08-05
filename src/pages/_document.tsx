@@ -1,12 +1,14 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
-export default function Document(){
+export default function Document() {
     return (
         <Html lang="pt-br">
-            <Head />
-            <body className='bg-gray-50'>
+            <Head>
+  
+            </Head>
+            <body className="bg-gray-50">
                 <Main />
-                <NextScript/>
+                <NextScript />
             </body>
         </Html>
     )

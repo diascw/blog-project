@@ -3,7 +3,7 @@ export function Navbar() {
     return (
         <header>
             <Image
-            src="/images/logo.png"
+            src="https://i.postimg.cc/WzCyPyKj/logo.png"
             alt='Logomarca do Caminhos do Sabor'
             width={69}
             height={56}

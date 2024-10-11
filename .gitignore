@@ -34,3 +34,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# additional suggestions
+# cache files
+.cache/
+
+# IDE/editor specific
+.vscode/
+*.swp
+*.swo
+
+# lock files (if you want to ignore them)
+package-lock.json
+yarn.lock
+
+# build output for typescript
+dist/

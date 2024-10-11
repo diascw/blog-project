@@ -9,9 +9,9 @@ export function Header() {
           alt="logomarca caminhos do sabor"
           width={112}
           height={38}
+          style={{ width: 'auto', height: 'auto' }} 
         />
       </div>
-
     </header>
   );
 }

@@ -38,13 +38,16 @@ export default function Home() {
         <Header />
         {posts.map((post, index) => (
           <div key={index} className='w-full h-full flex gap-8 items-start mt-12'>
-            <div className='flex-shrink-0 w-[167px] h-[130px] relative rounded-2xl'>
+            {/* Ajuste do contêiner para garantir tamanho da imagem */}
+            <div className='flex-shrink-0 w-[167px] h-[130px] relative rounded-2xl overflow-hidden'>
               <Image
                 src={post.imageSrc}
                 alt={post.imageAlt}
-                layout='fill'
-                objectFit='cover'
-                className='rounded-2xl'
+                fill
+                className='rounded-2xl object-cover'
+                sizes="(max-width: 768px) 100vw,
+                        (max-width: 1200px) 50vw,
+                        33vw" // Controle de tamanhos responsivos
               />
             </div>
             <div className='flex-1 min-h-[130px] flex flex-col justify-between'>

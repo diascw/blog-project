@@ -1,18 +1,17 @@
-import React, { FC } from 'react';
 import Image from 'next/image';
 
-export const Header: FC = () => {
+export function Header() {
   return (
-    <header className="w-full h-16 flex items-center bg-[#1E1E1E]">
+    <header className='w-full h-16 flex items-center' style={{ backgroundColor: '#1E1E1E' }}>
       <div className="ml-4">
         <Image
           src="/logo.svg"
           alt="logomarca caminhos do sabor"
           width={112}
           height={38}
-          layout="fixed"
+          style={{ width: 'auto', height: 'auto' }} 
         />
       </div>
     </header>
   );
-};
+}

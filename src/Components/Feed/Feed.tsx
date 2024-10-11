@@ -1,17 +1,14 @@
-import { FC } from 'react';
-import { Post as PostType } from '../../types';
 import { Post } from '../Post/Post';
-
+import { Post as PostType } from '../../types';
 interface FeedProps {
   posts: PostType[];
 }
-
-export const Feed: FC<FeedProps> = ({ posts }) => {
+export function Feed({ posts }: FeedProps) {
   return (
-    <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      {posts.map((post) => (
-        <Post key={post.title} post={post} />
+    <>
+      {posts.map((post, index) => (
+        <Post key={index} post={post} />
       ))}
-    </div>
+    </>
   );
-};
+}

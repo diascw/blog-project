@@ -3,6 +3,6 @@ export interface Post {
     description: string;
     author: string;
     imagePost: string;
-    imageDescription: string; 
+    imageDescription: string;
   }
   
